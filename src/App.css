@@ -1,6 +1,7 @@
 body{
     font-family: 'Open Sans Condensed';
     padding: 20px 60px;
+    background-image: linear-gradient(to left, red , rgb(0, 68, 255));
    
 }
 
