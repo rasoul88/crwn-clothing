@@ -6,6 +6,7 @@
   
     img {
       width: 30%;
+      border-radius: 5px;
     }
   
     .item-details {
@@ -15,9 +16,10 @@
       align-items: flex-start;
       justify-content: center;
       padding: 10px 20px;
+      color: white;
   
       .name {
-        font-size: 16px;
+        font-size: 18px;
       }
     }
   }
