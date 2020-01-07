@@ -12,7 +12,13 @@
     top: 90px;
     right: 80px; //main:40px
     z-index: 5;
-  
+
+    .empty-message {
+      font-size: 22px;
+      margin: 50px auto;
+      color: white;
+    }
+
     .cart-items {
       height: 280px;
       display: flex;
