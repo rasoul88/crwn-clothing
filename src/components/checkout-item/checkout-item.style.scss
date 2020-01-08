@@ -8,12 +8,12 @@
     align-items: center;
   
     .image-container {
-      width: 23%;
+      width: 21%;
       padding-right: 15px;
       
   
       img {
-        width: 100%;
+        width: 95%;
         height: 100%;
         border-radius: 7px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
@@ -24,14 +24,34 @@
     .price {
       width: 23%;
     }
+    
   
+
     .quantity {
-      padding-left: 20px;
+      display: flex;
+
+      .value{
+        margin: 0 10px;
+      }
+
+      .arrow{
+        cursor: pointer;
+        transition: 400ms ease all;
+
+        &:hover{
+          transform: scale(1.35);
+        }
+      }
     }
   
     .remove-button {
-      padding-left: 12px;
-      cursor: pointer;
+        // padding: 32px;
+        cursor: pointer;
+        transition: 400ms ease all;
+
+      &:hover {
+        transform: scale(1.5);
+      }
     }
   }
   
