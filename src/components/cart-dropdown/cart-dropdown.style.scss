@@ -10,7 +10,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4); // add
     background-color: rgba(0, 0, 0, 0.8);
     top: 90px;
-    right: 80px; //main:40px
+    right: 30px; //main:40px
     z-index: 5;
 
     .empty-message {
@@ -28,6 +28,7 @@
   
     button {
       margin-top: auto;
+      margin-right: 8px;
     }
   }
   

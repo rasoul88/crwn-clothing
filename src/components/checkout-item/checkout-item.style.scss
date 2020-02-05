@@ -22,10 +22,12 @@
     .name,
     .quantity,
     .price {
-      width: 23%;
+      width: 24%;
     }
     
-  
+    .name {
+      padding-left: 18px;
+    }
 
     .quantity {
       display: flex;

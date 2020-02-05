@@ -4,9 +4,10 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
-    // position: sticky;
-    // top: 0;
-    // z-index: 10;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
     .logo-container {
       height: 70px;    //main=100%
       width: 70px;

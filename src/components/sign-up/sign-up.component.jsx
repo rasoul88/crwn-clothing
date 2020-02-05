@@ -90,7 +90,7 @@ class SignUp extends React.Component {
               label='Confirm Password'
               required
             />
-            <CustomButton type='submit' isGoogleSignIn>SIGN UP</CustomButton>
+            <CustomButton type='submit' signin_signup>SIGN UP</CustomButton>
           </form>
         </div>
       );

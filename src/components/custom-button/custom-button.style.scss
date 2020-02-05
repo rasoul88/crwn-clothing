@@ -2,7 +2,7 @@
     min-width: 165px;
     width: auto;
     height: 50px;
-    border-radius: 25px;
+    border-radius: 7px;
     letter-spacing: 0.5px;
     line-height: 50px;
     padding: 0 35px 0 35px;
@@ -15,7 +15,6 @@
     border: none;
     cursor: pointer;
     transition: 600ms ease all;
-    margin: 1px;
   
     &:hover {
       background-color: white;
@@ -23,8 +22,17 @@
       border: 1px solid black;
     }
 
-  &.google-sign-in {
-    background-color: black;
+    &.signin-signup {
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: black;
+        border: none;
+        box-shadow: 0 4px 8px 0px rgba(255, 0, 0, 0.568), 0 6px 20px 0px rgba(255, 0, 0, 0.568);
+      }
+    }
+
+    &.google-sign-in {
+    background-color: #4285f4;
     color: white;
 
     &:hover {
